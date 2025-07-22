@@ -22,7 +22,7 @@ class TestValidadeFormat(unittest.TestCase):
         line_num_hundred = 100
         line_num_thousand = 1000
 
-        msg = 'This is a unit test'
+        msg = "This is a unit test"
 
         err_msg_unity = error_message(line_num_unity, msg)
         err_msg_ten = error_message(line_num_ten, msg)
